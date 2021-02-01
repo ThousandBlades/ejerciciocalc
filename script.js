@@ -42,6 +42,8 @@ class Calculator {
           computation = prev * current
             break
         case '÷':
+          if ( current === 0) return
+          else if (current !==0)
           computation = prev / current
             break
         case '^':
